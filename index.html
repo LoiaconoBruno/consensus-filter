@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filtro de consenso</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .graficos { display: grid; gap: 16px; grid-template-columns: 1fr 1fr; }
+    @media (max-width: 1000px) { .graficos { grid-template-columns: 1fr; } }
+    .lema { font-style: italic; color: var(--muted); margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <h1>Filtro de consenso artificial</h1>
+    <p>Una red social donde una IA solo publica lo que converge con su base de "verdad objetiva". Muchas miradas, una sola conclusión. ¿Qué pasa si la base tiene un error?</p>
+    <p class="lema">"Existe la pluralidad de miradas, pero está prohibida la pluralidad de resultados."</p>
+  </header>
+
+  <main>
+    <div class="layout">
+      <section class="card" aria-labelledby="t-param">
+        <h2 id="t-param">Mundo</h2>
+        <div class="row">
+          <button id="p-correcta">Base correcta</button>
+          <button id="p-error" class="primary">Base con error</button>
+        </div>
+        <div id="sliders"></div>
+      </section>
+
+      <div style="display:grid; gap:16px; min-width:0">
+        <section class="card" aria-live="polite">
+          <h2>Al final de la simulación</h2>
+          <div class="stats">
+            <div class="stat"><div class="k">¿Se puede publicar la verdad real?</div><div class="v" id="s-publicable">—</div></div>
+            <div class="stat"><div class="k">Error de lo publicado (con / sin filtro)</div><div class="v" id="s-error">—</div></div>
+            <div class="stat"><div class="k">Error en lo que cree la gente (con / sin)</div><div class="v" id="s-priv">—</div></div>
+            <div class="stat"><div class="k">Expertos rechazados (últimas 10 rondas)</div><div class="v" id="s-exp">—</div></div>
+            <div class="stat"><div class="k">Diversidad de estilo que queda</div><div class="v" id="s-estilo">—</div></div>
+          </div>
+          <p class="small muted" id="lectura"></p>
+        </section>
+
+        <div class="graficos">
+          <section class="card"><h2>Qué se publica</h2><canvas id="g-publico" aria-label="Error de lo publicado por ronda, con y sin filtro"></canvas></section>
+          <section class="card"><h2>Qué hace el filtro</h2><canvas id="g-filtro" aria-label="Porcentaje de publicaciones rechazadas y optimizadas por ronda"></canvas></section>
+          <section class="card"><h2>Cómo escribe la gente</h2><canvas id="g-estilo" aria-label="Diversidad de estilo por ronda, con y sin filtro"></canvas></section>
+          <section class="card"><h2>Qué cree la gente al final</h2><canvas id="g-hist" aria-label="Distribución de las creencias privadas al final, con y sin filtro"></canvas></section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>Modelo de juguete para pensar la premisa de una novela, no una predicción sobre redes reales. La verdad real vale 0 y la base de verdad vale lo que diga "error".</footer>
+
+  <script src="src/grafico.js"></script>
+  <script src="src/simulacion.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

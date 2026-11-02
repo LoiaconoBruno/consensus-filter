@@ -1,0 +1,10 @@
+{
+  "name": "filtro-consenso-artificial",
+  "version": "0.1.0",
+  "description": "Simulación de una red donde una IA solo publica lo que converge con su base de verdad",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  }
+}
