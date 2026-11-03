@@ -1,4 +1,19 @@
-# Filtro de consenso artificial
+<div align="center">
+
+# Consensus Filter
+
+**Filtro de consenso artificial.** Una red social donde una IA solo publica lo que coincide con su base de verdad. ¿Qué pasa si la base tiene un error?
+
+[**▶ Probala en vivo**](https://loiaconobruno.github.io/consensus-filter/) · [Cómo funciona](#cómo-funciona) · [Limitaciones](#limitaciones)
+
+[![Tests](https://github.com/LoiaconoBruno/consensus-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/LoiaconoBruno/consensus-filter/actions/workflows/tests.yml)
+![Dependencias: 0](https://img.shields.io/badge/dependencias-0-brightgreen)
+![HTML, CSS y JavaScript](https://img.shields.io/badge/HTML%20%C2%B7%20CSS%20%C2%B7%20JS-sin%20build-f7df1e)
+[![Licencia MIT](https://img.shields.io/badge/licencia-MIT-blue)](LICENSE)
+
+<img src="docs/captura.png" alt="Captura de Consensus Filter" width="800">
+
+</div>
 
 Simulación interactiva de la premisa de una distopía: una red social donde una IA solo publica lo que converge con su base de "verdad objetiva". Se permiten muchas miradas, pero una sola conclusión. La página corre la misma población **con y sin filtro** y muestra qué pasa cuando la base de verdad tiene un error.
 
@@ -12,11 +27,23 @@ La novela necesita que el sistema sea creíble: que tenga beneficios reales y qu
 
 ## Instalación
 
-No hace falta instalar nada. Es una página estática sin dependencias. Para correr los tests hace falta Node 18 o más nuevo.
+No hace falta instalar nada: **[abrila en el navegador](https://loiaconobruno.github.io/consensus-filter/)**.
+
+Para usarla sin conexión o modificarla:
+
+```bash
+git clone https://github.com/LoiaconoBruno/consensus-filter.git
+```
+
+Después abrí `index.html` con doble clic. No hay dependencias ni paso de build. Para correr los tests hace falta Node 18 o más nuevo:
+
+```bash
+npm test
+```
 
 ## Uso
 
-Abrí `index.html` con doble clic. Todo se recalcula al mover un deslizador.
+Abrí la [demo en vivo](https://loiaconobruno.github.io/consensus-filter/) o `index.html` con doble clic. Todo se recalcula al mover un deslizador.
 
 Ejemplo:
 
