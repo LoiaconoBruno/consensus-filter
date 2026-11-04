@@ -4,7 +4,7 @@
 
 **Filtro de consenso artificial.** Una red social donde una IA solo publica lo que coincide con su base de verdad. ¿Qué pasa si la base tiene un error?
 
-[**▶ Probala en vivo**](https://loiaconobruno.github.io/consensus-filter/) · [Cómo funciona](#cómo-funciona) · [Limitaciones](#limitaciones)
+[**▶ Probala en vivo**](https://loiaconobruno.github.io/consensus-filter/) · [**📄 Paper y guía**](https://loiaconobruno.github.io/consensus-filter/guia.html) · [Cómo funciona](#cómo-funciona) · [Limitaciones](#limitaciones)
 
 [![Tests](https://github.com/LoiaconoBruno/consensus-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/LoiaconoBruno/consensus-filter/actions/workflows/tests.yml)
 ![Dependencias: 0](https://img.shields.io/badge/dependencias-0-brightgreen)
@@ -83,6 +83,10 @@ npm test
 - Agregar autocensura: personas que aprenden a escribir lo que pasa el filtro.
 - Agregar una actualización de la base de verdad (¿quién la controla? ¿cada cuánto?).
 - Escribir el mismo posteo en tres versiones, original, optimizado y rechazado, usando los casos que salen de la simulación.
+
+## Paper de uso y guía
+
+[`guia.html`](https://loiaconobruno.github.io/consensus-filter/guia.html) (fuente en [`docs/guia.md`](docs/guia.md)) tiene un paper de uso paso a paso y una guía de unas 20 páginas sobre la idea de fondo, con citas a los especialistas del tema.
 
 ## Licencia
 
