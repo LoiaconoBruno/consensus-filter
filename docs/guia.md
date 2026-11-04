@@ -338,7 +338,53 @@ El tercer próximo paso es escribir el mismo posteo en tres versiones (original,
 
 La regla de la novela, como la de la simulación, es que el sistema tiene que ser creíble. Con la base correcta, el filtro funciona. El horror no está en el sistema en sí sino en que nadie puede saber si la base es correcta.
 
-### 22. Del modelo al código
+### 22. Consensos legítimos: cómo se forman y cómo se corrigen
+
+La premisa de la novela podría leerse como un ataque al consenso en general. No lo es, y conviene que la novela tampoco lo sea. Hay consensos que son la mejor conclusión disponible, y la diferencia entre ellos y la base de verdad del filtro no está en el contenido sino en el **proceso**.
+
+#### 22.1 El consenso como resultado
+
+En 2004, la historiadora de la ciencia Naomi Oreskes publicó en *Science* (306(5702), 1686) un breve ensayo titulado *The scientific consensus on climate change*. Analizó una muestra de 928 resúmenes de artículos con revisión por pares publicados entre 1993 y 2003 que contenían la expresión "cambio climático global", y no encontró ninguno que rechazara explícitamente la conclusión de que el calentamiento de las décadas recientes se debía en buena parte a la actividad humana. John Cook y colaboradores hicieron un análisis más amplio en 2013 (*Environmental Research Letters*, 8, 024024), con casi 12 000 resúmenes, y encontraron que, entre los que expresaban una posición, alrededor del 97 % respaldaba esa conclusión.
+
+Lo importante de esos estudios es cómo se llegó al consenso: miles de investigadores independientes, con datos distintos, métodos distintos y la posibilidad abierta de publicar resultados contrarios, que convergieron en la misma conclusión. Es la sabiduría de las multitudes de Galton en su versión institucional. Y es exactamente lo contrario del filtro: el consenso climático es un **resultado** de la libertad de disentir; la base de verdad del filtro es un **punto de partida** que la elimina.
+
+#### 22.2 Instituciones de síntesis
+
+El Panel Intergubernamental sobre Cambio Climático (IPCC), creado en 1988, no hace investigación propia: reúne a cientos de autores para evaluar la literatura publicada, y sus informes pasan por varias rondas de revisión abierta a expertos y gobiernos, con miles de comentarios que deben ser respondidos. Las conclusiones se expresan con un lenguaje calibrado de probabilidad ("muy probable", "probable") y de confianza, que indica cuán sólida es la evidencia.
+
+Esa forma de expresar el consenso tiene tres rasgos que el filtro no tiene. Primero, admite grados: no hay una conclusión única sino un rango con su incertidumbre. Segundo, se revisa periódicamente: cada informe actualiza al anterior. Tercero, deja registro del disenso: los comentarios de los revisores y las respuestas se publican. Un filtro que quisiera parecerse a un consenso legítimo tendría que incorporar esas tres cosas, y entonces dejaría de ser un filtro.
+
+#### 22.3 Wikipedia: consenso con disenso visible
+
+Wikipedia es un experimento enorme de construcción de consenso. Sus artículos se escriben bajo la regla del "punto de vista neutral", que pide representar las posiciones significativas en proporción a su presencia en fuentes confiables. En 2005, *Nature* comparó artículos científicos de Wikipedia y de la *Encyclopaedia Britannica* (Jim Giles, *Nature*, 438, 900–901) y encontró que la cantidad de errores graves era similar y que Wikipedia tenía algo más de errores menores. El resultado fue discutido, pero mostró que un proceso abierto podía producir un consenso de calidad comparable al de uno cerrado y experto.
+
+Lo más interesante de Wikipedia para la novela no son sus artículos sino sus **páginas de discusión** y su **historial**: cada artículo tiene, detrás, una conversación pública en la que se discuten las fuentes y las afirmaciones, y un registro de cada cambio. El consenso es visible y, al mismo tiempo, se puede ver cómo se formó y quién no estuvo de acuerdo. El filtro de la novela es la imagen inversa: muestra el resultado y oculta el desacuerdo.
+
+#### 22.4 La ciencia también se equivoca, y lo sabe
+
+La ciencia tiene mecanismos para corregir sus errores, imperfectos pero reales. En 2012, Ferric Fang, R. Grant Steen y Arturo Casadevall analizaron más de 2000 artículos biomédicos retractados (*Proceedings of the National Academy of Sciences*, 109(42), 17028–17033) y encontraron que la mayoría se retiró por mala conducta (fraude, plagio, duplicación) y no por error honesto, y que la proporción de retractaciones venía creciendo. En 2015, la Open Science Collaboration intentó replicar cien estudios de psicología publicados en revistas importantes (*Science*, 349(6251), aac4716) y obtuvo resultados significativos en solo alrededor de un tercio de los casos.
+
+Estos trabajos se suelen citar como evidencia de una "crisis" de la ciencia. Para la novela, muestran otra cosa: que la ciencia publica sus propios fracasos. La crisis de replicación fue descubierta, discutida y medida por científicos, en revistas científicas, y llevó a cambios concretos (preregistración, datos abiertos, estudios de replicación). Es el mecanismo que el filtro rompe: una comunidad que puede publicar que se equivocó.
+
+#### 22.5 Herramientas contra el error
+
+Después de la crisis de replicación, la comunidad científica adoptó prácticas pensadas para que los errores se detecten antes y se corrijan más rápido. Brian Nosek y colaboradores describieron una de ellas en *The preregistration revolution* (*Proceedings of the National Academy of Sciences*, 115(11), 2600–2606, 2018): registrar públicamente, antes de recolectar los datos, qué hipótesis se van a poner a prueba y cómo se van a analizar. Otras son la publicación de los datos y del código, los informes registrados (revistas que aceptan un artículo por su diseño, antes de conocer los resultados) y los estudios de replicación coordinados entre muchos laboratorios.
+
+Todas tienen algo en común: hacen **más visible** el trabajo, incluido lo que sale mal. Son el opuesto exacto del filtro, que hace menos visible todo lo que se aparta de la base. Para la novela, pueden inspirar a la resistencia: un grupo que, sin poder publicar sus conclusiones, registra sus predicciones con fecha en algún lugar fuera de la red, para poder demostrar después que tenían razón antes de que la base cambiara.
+
+### 23. El filtro en la vida diaria: lo que ya existe
+
+La premisa exagera, pero varias piezas del filtro ya existen en escala reducida, y conocerlas ayuda a escribir una distopía verosímil.
+
+- **Etiquetas de verificación.** Durante la pandemia de COVID-19, varias plataformas agregaron etiquetas a publicaciones sobre vacunas y tratamientos, enlazando a fuentes oficiales, y redujeron el alcance de las que contradecían a esas fuentes. Algunas afirmaciones etiquetadas como desinformación en un momento (por ejemplo, sobre el origen del virus) pasaron después a considerarse hipótesis legítimas en discusión. Es un caso real, aunque mucho más acotado, de una base de verdad que cambió mientras se usaba para moderar.
+- **Correctores y asistentes de escritura.** Los sistemas que sugieren cómo reescribir un texto son, en su forma más benigna, el "pulido" del modelo. Cuando millones de personas aceptan las mismas sugerencias, el efecto agregado es la homogeneización que midieron Padmakumar, He, Doshi y Hauser.
+- **Respuestas únicas.** Los buscadores y asistentes que responden con un solo párrafo en vez de una lista de fuentes concentran en una sola respuesta lo que antes era una variedad de enlaces. La pregunta de la novela, "¿y si esa respuesta está mal?", es una pregunta práctica para cualquier sistema de este tipo.
+
+Ninguno de estos ejemplos es el filtro de la novela, y la novela no necesita afirmar que lo sean. Pero muestran que la distancia entre la premisa y el presente es de grado y de alcance, no de naturaleza. Es la distancia justa para una buena distopía: lo bastante lejos para ser ficción, lo bastante cerca para inquietar.
+
+Una manera útil de usar estos ejemplos en la novela es preguntarse qué condiciones tendría que cumplir el filtro para ser **legítimo**, y mostrar cómo, en la ficción, cada una se fue perdiendo. Con lo visto en la sección 22, la lista sería: que la base de verdad exprese grados de certeza y no una sola conclusión; que se revise periódicamente con un procedimiento público; que el disenso fundado quede registrado y visible aunque no se amplifique; que haya una instancia independiente para apelar un rechazo; y que nadie que controle la base se beneficie de su contenido. Una distopía verosímil no empieza con un villano que apaga todo, sino con un sistema que cumplía esas condiciones y las fue abandonando, una por una, por eficiencia, por urgencia o por comodidad.
+
+### 24. Del modelo al código
 
 | Concepto | En `src/simulacion.js` | Qué produce |
 |---|---|---|
@@ -357,7 +403,7 @@ S.filtrar(0, 1.5, 0.75);                 // "optimizada"
 S.simular({}).equilibrioPrivado;         // 1,125
 ```
 
-### 23. Ejercicios
+### 25. Ejercicios
 
 1. Con la base con error, ¿qué tolerancia mínima hace que la verdad sea publicable? ¿Y que sea aprobada sin reescribir?
 2. Calculá con la fórmula del equilibrio qué creería la gente si α = β. ¿Y si β = 0?
@@ -365,9 +411,11 @@ S.simular({}).equilibrioPrivado;         // 1,125
 4. Poné el pulido en 0. ¿Qué pasa con la diversidad de estilo con filtro?
 5. Diseñá en papel una regla de actualización de la base de verdad. ¿Con qué datos se actualizaría, si lo publicado ya está filtrado?
 6. Escribí el mismo posteo en tres versiones: lo que escribió un experto, cómo lo publicaría el filtro optimizado y el aviso de rechazo.
-7. Leé el segundo capítulo de *Sobre la libertad* de Mill y elegí cuál de sus cuatro argumentos sería el centro de la novela.
+7. Elegí una de las cinco condiciones de legitimidad de la sección 23 y escribí la escena en la que el filtro de la novela la abandona.
+8. Buscá un caso real en el que una plataforma etiquetó como falsa una afirmación que después se reconsideró. ¿Qué mecanismo permitió la corrección?
+9. Leé el segundo capítulo de *Sobre la libertad* de Mill y elegí cuál de sus cuatro argumentos sería el centro de la novela.
 
-### 24. Glosario
+### 26. Glosario
 
 - **Verdad real (R):** el valor correcto de la pregunta del modelo.
 - **Base de verdad (T):** lo que la IA considera verdadero; puede tener un error.
@@ -380,9 +428,11 @@ S.simular({}).equilibrioPrivado;         // 1,125
 - **Sabiduría de las multitudes:** precisión del promedio de muchas estimaciones independientes.
 - **Espiral del silencio:** proceso por el que las opiniones percibidas como minoritarias se callan cada vez más.
 - **Monocultivo algorítmico:** uso del mismo algoritmo en muchas decisiones, con errores correlacionados.
+- **Retractación:** retiro formal de un artículo científico publicado, por error o mala conducta.
+- **Crisis de replicación:** constatación de que muchos resultados publicados no se reproducen al repetir los estudios.
 - **Colapso de modelos:** degradación de modelos entrenados con datos generados por modelos.
 
-### 25. Conclusión
+### 27. Conclusión
 
 La premisa de la novela, una red en la que una IA solo publica lo que coincide con su base de verdad, tiene la virtud de las buenas distopías: exagera una tendencia real hasta volverla visible. La simulación muestra con números por qué da miedo aunque funcione. Con la base correcta, el filtro reduce el error de lo publicado a casi cero, y es fácil defenderlo. Con un error, lo congela: la verdad real se rechaza como desinformación, lo publicado se queda en 1,31, la gente cree el error a medias (1,03, cerca del equilibrio de Friedkin y Johnsen) y dos de cada tres publicaciones de los expertos se rechazan. Sin filtro, la misma población, con el mismo azar, encuentra la verdad: es la sabiduría de las multitudes de Galton.
 
@@ -392,11 +442,14 @@ La historia de Semmelweis, Wegener, Marshall y Warren, Shechtman y, en el extrem
 
 - Asch, S. E. (1956). Studies of independence and conformity: I. A minority of one against a unanimous majority. *Psychological Monographs: General and Applied*, 70(9), 1–70. https://doi.org/10.1037/h0093718
 - Bradbury, R. (1953). *Fahrenheit 451*. Ballantine Books.
+- Cook, J., Nuccitelli, D., Green, S. A., Richardson, M., Winkler, B., Painting, R., Way, R., Jacobs, P., & Skuce, A. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. *Environmental Research Letters*, 8(2), 024024. https://doi.org/10.1088/1748-9326/8/2/024024
 - Deffuant, G., Neau, D., Amblard, F., & Weisbuch, G. (2000). Mixing beliefs among interacting agents. *Advances in Complex Systems*, 3(1–4), 87–98. https://doi.org/10.1142/S0219525900000078
 - DeGroot, M. H. (1974). Reaching a consensus. *Journal of the American Statistical Association*, 69(345), 118–121. https://doi.org/10.1080/01621459.1974.10480137
 - Doshi, A. R., & Hauser, O. P. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. *Science Advances*, 10(28), eadn5290. https://doi.org/10.1126/sciadv.adn5290
+- Fang, F. C., Steen, R. G., & Casadevall, A. (2012). Misconduct accounts for the majority of retracted scientific publications. *Proceedings of the National Academy of Sciences*, 109(42), 17028–17033. https://doi.org/10.1073/pnas.1212247109
 - Friedkin, N. E., & Johnsen, E. C. (1990). Social influence and opinions. *Journal of Mathematical Sociology*, 15(3–4), 193–206. https://doi.org/10.1080/0022250X.1990.9990069
 - Galton, F. (1907). Vox populi. *Nature*, 75, 450–451. https://doi.org/10.1038/075450a0
+- Giles, J. (2005). Internet encyclopaedias go head to head. *Nature*, 438, 900–901. https://doi.org/10.1038/438900a
 - Gillespie, T. (2018). *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*. Yale University Press. ISBN 978-0-300-17313-0.
 - Hegselmann, R., & Krause, U. (2002). Opinion dynamics and bounded confidence: Models, analysis and simulation. *Journal of Artificial Societies and Social Simulation*, 5(3), 2.
 - Hong, L., & Page, S. E. (2004). Groups of diverse problem solvers can outperform groups of high-ability problem solvers. *Proceedings of the National Academy of Sciences*, 101(46), 16385–16389. https://doi.org/10.1073/pnas.0403723101
@@ -407,6 +460,9 @@ La historia de Semmelweis, Wegener, Marshall y Warren, Shechtman y, en el extrem
 - Medvedev, Z. A. (1969). *The Rise and Fall of T. D. Lysenko*. Columbia University Press.
 - Mill, J. S. (1859). *On Liberty*. Londres: John W. Parker and Son.
 - Noelle-Neumann, E. (1974). The spiral of silence: A theory of public opinion. *Journal of Communication*, 24(2), 43–51. https://doi.org/10.1111/j.1460-2466.1974.tb00367.x
+- Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2018). The preregistration revolution. *Proceedings of the National Academy of Sciences*, 115(11), 2600–2606. https://doi.org/10.1073/pnas.1708274114
+- Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, 349(6251), aac4716. https://doi.org/10.1126/science.aac4716
+- Oreskes, N. (2004). The scientific consensus on climate change. *Science*, 306(5702), 1686. https://doi.org/10.1126/science.1103618
 - Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
 - Padmakumar, V., & He, H. (2024). Does writing with language models reduce content diversity? En *Proceedings of the Twelfth International Conference on Learning Representations (ICLR)*.
 - Page, S. E. (2007). *The Difference: How the Power of Diversity Creates Better Groups, Firms, Schools, and Societies*. Princeton University Press. ISBN 978-0-691-12838-2.
