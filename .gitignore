@@ -1,3 +1,15 @@
-node_modules/
 .DS_Store
-*.log
+node_modules/
+# Restos de compilar LaTeX (el PDF lo compila GitHub Actions)
+paper/*.aux
+paper/*.bbl
+paper/*.bcf
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.run.xml
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/figuras/*.pdf
+__pycache__/

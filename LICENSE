@@ -1,3 +1,21 @@
+Este repositorio tiene dos licencias.
+
+1. Texto, figuras y PDF: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+   Se aplica a paper/paper.tex, paper/paper.pdf, paper/referencias.bib,
+   paper/figuras/*.svg, index.html y README.md.
+   Podés compartirlos y adaptarlos, también con fines comerciales, siempre que
+   cites al autor e indiques si hiciste cambios.
+   Texto legal completo: LICENSE-CC-BY-4.0.txt
+   https://creativecommons.org/licenses/by/4.0/legalcode
+
+   Copyright (c) 2026 Bruno Loiacono
+
+2. Código: MIT
+
+   Se aplica a paper/figuras/generar.js, paper/web.py, paper/verificar_bib.py,
+   paper/plantilla.html y los workflows de .github/.
+
 MIT License
 
 Copyright (c) 2026 Bruno Loiacono

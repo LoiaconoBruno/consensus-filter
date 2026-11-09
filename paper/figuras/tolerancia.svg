@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13">
+<rect width="640" height="400" fill="#ffffff"/>
+<line x1="186.21052631578948" y1="40" x2="186.21052631578948" y2="344" stroke="#e3e1db"/>
+<text x="186.21052631578948" y="362" text-anchor="middle" fill="#333">0,5</text>
+<line x1="331.47368421052636" y1="40" x2="331.47368421052636" y2="344" stroke="#e3e1db"/>
+<text x="331.47368421052636" y="362" text-anchor="middle" fill="#333">1</text>
+<line x1="476.7368421052631" y1="40" x2="476.7368421052631" y2="344" stroke="#e3e1db"/>
+<text x="476.7368421052631" y="362" text-anchor="middle" fill="#333">1,5</text>
+<line x1="622" y1="40" x2="622" y2="344" stroke="#e3e1db"/>
+<text x="622" y="362" text-anchor="middle" fill="#333">2</text>
+<line x1="70" y1="344" x2="622" y2="344" stroke="#e3e1db"/>
+<text x="62" y="348" text-anchor="end" fill="#333">0</text>
+<line x1="70" y1="249" x2="622" y2="249" stroke="#e3e1db"/>
+<text x="62" y="253" text-anchor="end" fill="#333">0,5</text>
+<line x1="70" y1="154" x2="622" y2="154" stroke="#e3e1db"/>
+<text x="62" y="158" text-anchor="end" fill="#333">1</text>
+<line x1="70" y1="59" x2="622" y2="59" stroke="#e3e1db"/>
+<text x="62" y="63" text-anchor="end" fill="#333">1,5</text>
+<rect x="70" y="40" width="552" height="304" fill="none" stroke="#333"/>
+<text x="346" y="386" text-anchor="middle" fill="#111">Tolerancia del filtro τ</text>
+<text transform="translate(18 192) rotate(-90)" text-anchor="middle" fill="#111">Error al final (ronda 60)</text>
+<clipPath id="area"><rect x="70" y="40" width="552" height="304"/></clipPath><g clip-path="url(#area)">
+<line x1="258.8421052631579" y1="40" x2="258.8421052631579" y2="344" stroke="#666" stroke-dasharray="4 4"/>
+<text x="263.8421052631579" y="56" fill="#444" font-size="12">τ = ε/2</text>
+<line x1="476.7368421052631" y1="40" x2="476.7368421052631" y2="344" stroke="#666" stroke-dasharray="4 4"/>
+<text x="481.7368421052631" y="71" fill="#444" font-size="12">τ = ε</text>
+<path d="M70.00 59.00 L84.53 59.54 L99.05 60.86 L113.58 65.17 L128.11 69.50 L142.63 74.40 L157.16 81.21 L171.68 86.43 L186.21 95.75 L200.74 102.44 L215.26 107.92 L229.79 116.10 L244.32 128.47 L258.84 137.07 L273.37 144.30 L287.89 154.29 L302.42 160.89 L316.95 170.51 L331.47 177.49 L346.00 186.96 L360.53 198.07 L375.05 208.96 L389.58 220.97 L404.11 229.31 L418.63 240.50 L433.16 247.50 L447.68 264.33 L462.21 274.30 L476.74 280.90 L491.26 285.70 L505.79 292.40 L520.32 296.47 L534.84 298.12 L549.37 298.47 L563.89 300.01 L578.42 300.70 L592.95 304.30 L607.47 305.37 L622.00 306.52" fill="none" stroke="#c25a00" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M70.00 124.59 L84.53 125.11 L99.05 125.74 L113.58 127.99 L128.11 130.19 L142.63 133.81 L157.16 138.32 L171.68 142.76 L186.21 148.48 L200.74 154.48 L215.26 160.34 L229.79 166.86 L244.32 174.53 L258.84 181.46 L273.37 188.52 L287.89 196.38 L302.42 203.61 L316.95 210.75 L331.47 217.27 L346.00 223.95 L360.53 232.18 L375.05 239.86 L389.58 248.19 L404.11 255.31 L418.63 262.26 L433.16 268.61 L447.68 277.30 L462.21 284.47 L476.74 290.10 L491.26 294.91 L505.79 299.51 L520.32 302.48 L534.84 304.13 L549.37 305.31 L563.89 306.86 L578.42 307.55 L592.95 309.91 L607.47 310.98 L622.00 312.13" fill="none" stroke="#2a55c9" stroke-width="2.2" stroke-linejoin="round"/>
+</g>
+<line x1="70" y1="24" x2="92" y2="24" stroke="#c25a00" stroke-width="3"/>
+<text x="98" y="28" fill="#111">Error de lo publicado</text>
+<line x1="261.20000000000005" y1="24" x2="283.20000000000005" y2="24" stroke="#2a55c9" stroke-width="3"/>
+<text x="289.20000000000005" y="28" fill="#111">Error de lo que cree la gente</text>
+</svg>

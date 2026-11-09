@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13">
+<rect width="640" height="400" fill="#ffffff"/>
+<line x1="70" y1="40" x2="70" y2="344" stroke="#e3e1db"/>
+<text x="70" y="362" text-anchor="middle" fill="#333">0</text>
+<line x1="208" y1="40" x2="208" y2="344" stroke="#e3e1db"/>
+<text x="208" y="362" text-anchor="middle" fill="#333">0,2</text>
+<line x1="346" y1="40" x2="346" y2="344" stroke="#e3e1db"/>
+<text x="346" y="362" text-anchor="middle" fill="#333">0,4</text>
+<line x1="484.00000000000006" y1="40" x2="484.00000000000006" y2="344" stroke="#e3e1db"/>
+<text x="484.00000000000006" y="362" text-anchor="middle" fill="#333">0,6</text>
+<line x1="622" y1="40" x2="622" y2="344" stroke="#e3e1db"/>
+<text x="622" y="362" text-anchor="middle" fill="#333">0,8</text>
+<line x1="70" y1="344" x2="622" y2="344" stroke="#e3e1db"/>
+<text x="62" y="348" text-anchor="end" fill="#333">0</text>
+<line x1="70" y1="249" x2="622" y2="249" stroke="#e3e1db"/>
+<text x="62" y="253" text-anchor="end" fill="#333">0,5</text>
+<line x1="70" y1="154" x2="622" y2="154" stroke="#e3e1db"/>
+<text x="62" y="158" text-anchor="end" fill="#333">1</text>
+<line x1="70" y1="59" x2="622" y2="59" stroke="#e3e1db"/>
+<text x="62" y="63" text-anchor="end" fill="#333">1,5</text>
+<rect x="70" y="40" width="552" height="304" fill="none" stroke="#333"/>
+<text x="346" y="386" text-anchor="middle" fill="#111">Influencia de lo publicado α</text>
+<text transform="translate(18 192) rotate(-90)" text-anchor="middle" fill="#111">Creencia privada media b̄ al final</text>
+<clipPath id="area"><rect x="70" y="40" width="552" height="304"/></clipPath><g clip-path="url(#area)">
+<line x1="70" y1="59" x2="622" y2="59" stroke="#666" stroke-dasharray="4 4"/>
+<text x="616" y="53" text-anchor="end" fill="#444" font-size="12">T</text>
+<path d="M104.50 251.71 L139.00 204.97 L173.50 179.59 L208.00 165.27 L242.50 155.55 L277.00 148.48 L311.50 143.23 L346.00 139.26 L380.50 136.00 L415.00 134.07 L449.50 131.57 L484.00 129.01 L518.50 127.42 L553.00 126.25 L587.50 123.97 L622.00 122.56" fill="none" stroke="#c25a00" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M104.50 254.13 L139.00 207.62 L173.50 182.04 L208.00 167.15 L242.50 157.06 L277.00 150.10 L311.50 144.89 L346.00 140.79 L380.50 137.16 L415.00 134.25 L449.50 131.36 L484.00 129.10 L518.50 126.91 L553.00 124.97 L587.50 123.18 L622.00 121.30" fill="none" stroke="#2a55c9" stroke-width="2.2" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<path d="M104.50 256.82 L139.00 212.58 L173.50 185.60 L208.00 167.30 L242.50 154.00 L277.00 143.85 L311.50 135.83 L346.00 129.30 L380.50 123.88 L415.00 119.29 L449.50 115.35 L484.00 111.93 L518.50 108.92 L553.00 106.26 L587.50 103.89 L622.00 101.75" fill="none" stroke="#555555" stroke-width="1.6" stroke-dasharray="7 5" stroke-linejoin="round"/>
+</g>
+<line x1="70" y1="24" x2="92" y2="24" stroke="#c25a00" stroke-width="3"/>
+<text x="98" y="28" fill="#111">Simulación</text>
+<line x1="182" y1="24" x2="204" y2="24" stroke="#2a55c9" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="210" y="28" fill="#111">Punto fijo exacto (m medido)</text>
+<line x1="423.6" y1="24" x2="445.6" y2="24" stroke="#555555" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="451.6" y="28" fill="#111">Pesos chicos, m = T</text>
+</svg>
